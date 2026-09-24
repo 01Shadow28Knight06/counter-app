@@ -14,7 +14,11 @@ h1 {
 h2 {
     font-size: 5em;
     margin: 20px 0;
-    color: #ffffff;
+    color: #ffffff; /* Default color */
+}
+
+.button-group {
+    margin-top: 20px;
 }
 
 button {
@@ -22,7 +26,7 @@ button {
     color: #282c34;
     border: none;
     padding: 15px 25px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 5px;
     border-radius: 8px;
     cursor: pointer;
@@ -31,4 +35,14 @@ button {
 
 button:hover {
     background-color: #4fa8c7;
+}
+
+/* Special styling for the reset button */
+.reset-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.reset-btn:hover {
+    background-color: #c0392b;
 }
